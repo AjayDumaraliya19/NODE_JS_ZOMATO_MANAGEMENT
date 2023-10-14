@@ -19,7 +19,7 @@ const createUserPhoto = async (req, res) => {
       data: { userPhoto },
     });
   } catch (error) {
-    res.status(400).json({ success: false, message: error.message });
+    res.status(400).json({ success: false, message: error?.message });
   }
 };
 

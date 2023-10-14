@@ -4,7 +4,7 @@ const config = require("../config/config")
 /**user photo schema */
 const userPhotoSchema = new mongoose.Schema(
     {
-        photo_url: {
+        userPhoto_image: {
             type: String,
             trim: true,
         },

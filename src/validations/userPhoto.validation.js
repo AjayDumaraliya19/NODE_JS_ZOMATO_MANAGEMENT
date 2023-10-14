@@ -3,7 +3,7 @@ const Joi = require("joi");
 /** create user photo validation */
 const createUserPhoto = {
     body: Joi.object().keys({
-        photo_url: Joi.string().required().trim(),
+        userPhoto_image: Joi.string().trim(),
         caption: Joi.string().required().trim(),
     }),
   };
