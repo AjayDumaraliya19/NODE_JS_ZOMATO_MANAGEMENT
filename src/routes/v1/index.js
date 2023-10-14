@@ -81,13 +81,13 @@ const router = express.Router();
 /*                                    USERS                                   */
 /* -------------------------------------------------------------------------- */
 router.use("/user", userRoute);
-router.use("/adminUser" , adminUserRoute);
+router.use("/adminUser", adminUserRoute);
 router.use("/userSetting", userSettingRoute);
 router.use("/deliveryAddress", deliveryAddressRoute);
-router.use("/contentCreater" , contentCreaterRoute);
-router.use("/customerStory" , customerStoryRoute);
-router.use("/blog" , blogRoute);
-router.use("/userFaq" , userFaqRoute);
+router.use("/contentCreater", contentCreaterRoute);
+router.use("/customerStory", customerStoryRoute);
+router.use("/blog", blogRoute);
+router.use("/userFaq", userFaqRoute);
 
 /* -------------------------------------------------------------------------- */
 /*                                    CHAT                                    */
@@ -95,22 +95,22 @@ router.use("/userFaq" , userFaqRoute);
 router.use("/chat", chatRoute);
 router.use("/chatMessage", chatMessageRoute);
 router.use("/message", messageRoute);
-router.use("/notification" , notificationRoute);
+router.use("/notification", notificationRoute);
 
 /* -------------------------------------------------------------------------- */
 /*                                 RESTAURANT                                 */
 /* -------------------------------------------------------------------------- */
-router.use("/restaurants" , restaurantRoute);
+router.use("/restaurants", restaurantRoute);
 router.use("/restaurantOwners", restaurantOwnersRoute);
 router.use("/restaurantHour", restaurantHourRoute);
-router.use("/menuItems" , menuItemsRoute);
-router.use("/order" , orderRoute);
-router.use("/favorite" , favoriteRoute);
+router.use("/menuItems", menuItemsRoute);
+router.use("/order", orderRoute);
+router.use("/favorite", favoriteRoute);
 router.use("/special", specialRoute);
 router.use("/rating", ratingRoute);
-router.use("/review" , reviewRoute);
-router.use("/address" , addressRoute);
-router.use("/categories" , categoriesRoute);
+router.use("/review", reviewRoute);
+router.use("/address", addressRoute);
+router.use("/categories", categoriesRoute);
 router.use("/complaint", complaintRoute);
 router.use("/promocode", promocodeRoute);
 router.use("/orderItem", orderItemRoute);
@@ -136,16 +136,16 @@ router.use("/token", tokenRoute);
 /* -------------------------------------------------------------------------- */
 /*                                  PROMOTION                                 */
 /* -------------------------------------------------------------------------- */
-router.use("/promotion" , promotionRoute);
-router.use("/customerSupportAgent" , customerSupportAgentRoute);
-router.use("/marketingManager" , marketingManagerRoute);
-router.use("/dataAnalysis" , dataAnalysisRoute);
+router.use("/promotion", promotionRoute);
+router.use("/customerSupportAgent", customerSupportAgentRoute);
+router.use("/marketingManager", marketingManagerRoute);
+router.use("/dataAnalysis", dataAnalysisRoute);
 
 /* -------------------------------------------------------------------------- */
 /*                                   PAYMENT                                  */
 /* -------------------------------------------------------------------------- */
-router.use("/paymentMethod" , paymentMethodRoute);
-router.use("/paymentHistory" , paymentHistoryRoute);
+router.use("/paymentMethod", paymentMethodRoute);
+router.use("/paymentHistory", paymentHistoryRoute);
 
 /* -------------------------------------------------------------------------- */
 /*                            PUBLIC FOLDER                                   */
