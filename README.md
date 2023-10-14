@@ -26,7 +26,7 @@
 
 ## About The Project
 
-![Screen Shot](/Images/project.png)
+![Screen Shot](images/project.png)
 
 Our Zomato-like Food Delivery App is a web-based platform designed to streamline the process of ordering and delivering food from various restaurants to customers' doorsteps. Built using Node.js, Express.js, and MongoDB, this application offers a seamless user experience with features like user authentication, restaurant listings, order management, and more.
 
