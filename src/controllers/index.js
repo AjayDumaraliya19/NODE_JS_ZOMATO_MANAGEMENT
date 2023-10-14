@@ -1,0 +1,12 @@
+module.exports.userController = require("./user.controller");
+module.exports.tokenController = require("./token.controller");
+module.exports.countryController = require("./country.controller");
+module.exports.stateController = require("./state.controller");
+module.exports.cityController = require("./city.controller");
+module.exports.bannerController = require("./banner.controller");
+module.exports.restroTypeController = require("./restroType.controller");
+module.exports.restroController = require("./restrorant.controller");
+module.exports.cartController = require("./cart.controller");
+module.exports.foodController = require("./food.controller");
+module.exports.orderController = require("./order.controller");
+module.exports.serachController = require("./serach.controller");

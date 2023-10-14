@@ -1,0 +1,11 @@
+# nodemon
+/node_modules
+
+# env
+/.env
+
+# package lock
+/package-lock.json
+
+# yarn
+/yarn.lock
