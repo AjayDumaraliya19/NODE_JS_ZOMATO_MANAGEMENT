@@ -4,6 +4,7 @@ const { connectDB } = require("./db/dbconnection");
 const bodyParser = require("body-parser");
 const cors = require("cors");
 const routes = require("./routes/v1");
+const path = require("path");
 
 const app = express();
 
@@ -16,6 +17,9 @@ app.use(bodyParser.json());
 /* --------- Allow the helps to get resources from external servers --------- */
 app.use(cors());
 app.options("*", cors());
+
+/* ------------------------------- Images path ------------------------------ */
+app.use(express.static(path.join(__dirname, `./public`)));
 
 /* ---------------------------- Route connection ---------------------------- */
 app.use("/v1", routes);
